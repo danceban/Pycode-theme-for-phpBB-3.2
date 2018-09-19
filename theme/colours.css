@@ -578,7 +578,7 @@ fieldset.polls dd div {
 }
 
 dd.profile-warnings {
-	color: #BC2A4D;
+	color: #d44c6d;
 }
 
 /*
@@ -1175,7 +1175,7 @@ input.disabled {
 ---------------------------------------- */
 
 .notification_list p.notification-time {
-	color: #4C5D77;
+	color: rgb(183,183,189);
 }
 
 li.notification-reported strong, li.notification-disapproved strong {

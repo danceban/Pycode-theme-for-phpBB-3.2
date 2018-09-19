@@ -240,6 +240,12 @@ fieldset.submit-buttons input {
 	vertical-align: middle;
 }
 
+/* Color suggestion added by phpBB user https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1135815 */
+tr.bg3.big-column {
+	font-size: 1.2em;
+	background-color: #353940;
+	}
+
 /* Posting page styles
 ----------------------------------------*/
 
