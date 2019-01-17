@@ -1,4 +1,4 @@
-# pycode phpBB 3.2.3 theme
+# pycode phpBB 3.2.5 theme
 
 Minimalistic Dark Theme, based on prosilver and made for personal needs. Now sharing it with the community.
 
@@ -17,10 +17,8 @@ Adjust user groups color to your needs, as default ones don't look too good on d
 
 ## UPDATES
 
-pycode 1.0.1 update:
-- style is ready for use with newest phpBB 3.2.3 version
-- fixed few bugs encounted by durangod and DV1
-- added few color improvements to the style
+pycode 1.0.2 update:
+- style is ready for use with newest phpBB 3.2.5 version
 
 ## Support
 
