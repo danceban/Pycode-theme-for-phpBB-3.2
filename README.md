@@ -17,6 +17,10 @@ Adjust user groups color to your needs, as default ones don't look too good on d
 
 ## UPDATES
 
+pycode 1.1.0 update:
+- applied changes from gry-planszowe.pl made in phpBB 3.2.x version
+- style is ready for use with the newest phpBB 3.3.9 version but still needs some adjustments
+
 pycode 1.0.2 update:
 - style is ready for use with newest phpBB 3.2.5 version
 

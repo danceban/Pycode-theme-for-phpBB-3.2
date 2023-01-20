@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', Helvetica, Verdana, Arial, sans-serif;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	line-height: normal;
 	margin: 0;
@@ -29,7 +29,7 @@ h2 {
 	/* Forum header titles */
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size: 1.8em;
+	font-size: 2em;
 	margin: 0.8em 0 0.2em 0;
 }
 
@@ -199,6 +199,14 @@ a:hover	{ text-decoration: underline; }
 	border-radius: 3px;
 }
 
+.clickablelogo {
+	display: block;
+	background-image: url("./images/forum1024.jpg");
+	background-repeat: no-repeat;
+	border-radius: 7px;
+	height: 124px;
+}
+
 .navbar {
 	padding: 3px 10px;
 	border-radius: 3px;
@@ -261,6 +269,12 @@ ul.linklist > li {
 	margin-right: 7px;
 	padding-top: 1px;
 	width: auto;
+}
+
+ul.nav-custom.linklist > li {
+	font-size: 1em;
+	line-height: 2em;
+	padding-top: 0px;
 }
 
 ul.linklist > li.rightside, p.rightside, a.rightside {
@@ -981,16 +995,8 @@ fieldset.fields1 dl.pmlist dd.recipients {
 /* Miscellaneous styles
 ---------------------------------------- */
 .copyright {
-    padding: 5px;
-    font-size: 10px;
+	padding: 5px;
 	text-align: center;
-    padding: 10px;
-}
-
-.footer-row {
-	font-size: 10px;
-	line-height: 1.8;
-	margin: 0;
 }
 
 .small {
@@ -1274,10 +1280,6 @@ ul.linklist:after,
 
 .dropdown-page-jump input.tiny {
 	width: 50px;
-}
-
-.dropdown .clone.hidden {
-	display: none;
 }
 
 .dropdown .clone.hidden + li.separator {

@@ -421,7 +421,6 @@
 	.column1, .column2, .left-box.profile-details {
 		float: none;
 		width: auto;
-		clear: both;
 	}
 
 	/* Polls
@@ -466,7 +465,7 @@
 		overflow: hidden;
 	}
 
-	.postprofile dd {
+	.postprofile dd:not(.keep-in-responsive) {
 		display: none;
 	}
 
@@ -580,4 +579,10 @@
 	dd.posts, dd.topics, dd.views {
     	width: 80px;
 	}
+}
+
+@media (max-width: 500px) {
+.rightside .nav-custom li a span {
+display: none;
+}
 }

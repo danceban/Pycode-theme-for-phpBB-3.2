@@ -91,6 +91,10 @@ a:hover {
 	color: #bdbdbd;
 }
 
+.headerbar, .clickablelogo {
+	background-color: #000000;
+}
+
 .headerbar, .forumbg {
 	background-color: #42474F;
 	background-image: none;
@@ -130,7 +134,7 @@ a:hover {
 }
 
 .bg1 {
-	background-color: #42474F;
+	background-color: #41474F;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -138,7 +142,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #41474F;
+	background-color: #4A4F57;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -225,7 +229,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red{
-
+	color: #009F5F
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange{
@@ -578,7 +582,7 @@ fieldset.polls dd div {
 }
 
 dd.profile-warnings {
-	color: #d44c6d;
+	color: #BC2A4D;
 }
 
 /*
@@ -623,7 +627,6 @@ Colours and backgrounds for buttons.css
 .caret	{ border-color: #93959D; }
 
 .contact-icons a		{ border-color: rgb(43,47,52); }
-.contact-icons a:hover	{ background-color: #3B3F44; }
 
 /* Pagination
 ---------------------------------------- */
@@ -641,7 +644,9 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li.active span {
-	background: #656E77;
+/*	background: #656E77;
+	background: #717980;*/
+	background: #333333;
 	color: #dcdcdc;
 	font-weight: bold;
 }
@@ -1175,7 +1180,7 @@ input.disabled {
 ---------------------------------------- */
 
 .notification_list p.notification-time {
-	color: rgb(183,183,189);
+	color: #7e8b9e;
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
@@ -1185,5 +1190,13 @@ li.notification-reported strong, li.notification-disapproved strong {
 .badge {
 	background-color: #ff0000;
 	color: #ffffff;
+}
+
+.bg2 .notification-block {
+background-color: #2A2F34;
+}
+
+.row.bg3 {
+background-color: #2A2F34;
 }
 

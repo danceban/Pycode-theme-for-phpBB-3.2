@@ -79,12 +79,18 @@
 	height: 16px;
 	width: 16px;
 }
+
+.contact-icons {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .contact-icons a {
 	border-bottom: 1px dotted;
-	border-right: 1px dotted;
 	display: block;
 	float: left;
-	padding: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .contact-icons .last-cell {
